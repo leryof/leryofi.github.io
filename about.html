@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<script>
+    function calculateBMI() {
+        var weight = prompt("Enter your weight in kg:");
+        var height = prompt("Enter your height in meters:");
+        if (weight && height) {
+            var bmi = weight / (height * height);
+            document.getElementById("bmiResult").innerText = "Your BMI is " + bmi.toFixed(2);
+        }
+    }
+</script>
+<button onclick="calculateBMI()">Click to Calculate BMI</button>
+<p id="bmiResult"></p>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Push - Personal Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<h1><a href="index.html">Push Day</a></h1>
+		</div>
+		<div>
+			<span></span>
+			<div>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="current">
+						<a href="about.html">Push</a>
+					</li>
+					<li>
+						<a href="blog.html">Pull</a>
+					</li>
+					<li>
+						<a href="gallery.html">Legs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<div class="content">
+					<h2>Routine:</h2>
+					<div>
+						<h3>I always start with stretching, then do 6 of these exercises below:</h3>
+						<p>
+
+						</p>
+						<p>
+								Bench press or Machine Bench Press: 2x10 (3x8) 40kg
+							</p>
+							<p>
+								Lat raise 4x13 9kg *or Lat raise machine: 4x13 25kg
+							</p>
+							<p>
+								Iso lateral incline press machine: 3x9 80kg
+							</p>
+							
+							<p>
+								Cable pec fly: 3x12 13.75kg or pec fly machine: 3x12 54kg
+							</p>
+							<p>
+								Skull crusher: 3x12 15kg or Tricep extension: 3x9 26.25kg
+							</p>
+							<p>
+								Chest Dips: 3x10
+							</p>
+							<p>
+								Dumbbell press: 3x11 24kg
+							</p>
+							<p>
+								Military press 3x6 15kg
+							</p>
+						<div id="sidebar">
+							<h4>Tips and Tricks</h4>
+							<ul>
+								<li>
+									<a href="https://www.youtube.com/watch?v=FWDXsqHo14A">The Best Science-Based PUSH Workout For Growth</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=ykQlXirszbo">Chest Exercises Ranked (BEST TO WORST!)</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=wyc2rCJl4qE">Bodybuilding Simplified: Shoulders</a>
+								</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="index.html">
+				<input type="text" value="Enter email for Newsletter" id="newsletter">
+				<input type="submit" value="Go" id="gobtn">
+			</form>
+			<div>
+				<a href="https://www.facebook.com/ryoofajardo/" target="_blank" id="facebook">Facebook</a>
+				<a href="https://twitter.com/ryooiwase" target="_blank" id="twitter">Twitter</a>
+				<a href="https://www.instagram.com/ryofiwase/" target="_blank" id="instagram">Instagram</a>
+			</div>
+		</div>
+		<p>
+			<p>ID: 23314047 | Name: Iwase Ryo</p>
+		</p>
+	</div>
+</body>
+</html>

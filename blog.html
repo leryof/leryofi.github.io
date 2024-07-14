@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<script>
+    function calculateBMI() {
+        var weight = prompt("Enter your weight in kg:");
+        var height = prompt("Enter your height in meters:");
+        if (weight && height) {
+            var bmi = weight / (height * height);
+            document.getElementById("bmiResult").innerText = "Your BMI is " + bmi.toFixed(2);
+        }
+    }
+</script>
+<button onclick="calculateBMI()">Click to Calculate BMI</button>
+<p id="bmiResult"></p>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Blog - Weekender Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<h1><a href="index.html">Pull Day</a></h1>
+		</div>
+		<div>
+			<span></span>
+			<div>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">Push</a>
+					</li>
+					<li class="current">
+						<a href="blog.html">Pull</a>
+					</li>
+					<li>
+						<a href="gallery.html">Legs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<div class="content">
+					<h2>Routine:</h2>
+					<div>
+						<div id="article">
+							<span>Once again, stretching and do 5-6 exercises below:</span>
+							<p>
+							</p>
+							<p>
+								Lat pulldown: 3x10 49.5kg
+							</p>
+							<p>
+								Barbell row: 3x14 20kg or Dumbbell rear delt row: 3x10 24kg
+							</p>
+							<p>
+								Bar bicep curl: 3x8 5kg or Concentration curl 3x9 14kg
+							</p>
+							<p>
+								Deadlift: 3x7 50kg
+							</p>
+							<p>
+								Reverse pec fly machine: 3x13 49.5kg
+							</p>
+							<p>
+								Pull ups: 4x6 
+							</p>
+							<p>
+								Iso-lateral wide pulldown machine: 3x13 60kg
+							</p>
+							<p>
+								Facepulls: 3x13 23.75kg
+							</p>
+						</div>
+						<div id="sidebar">
+							<h4>Tips and Tricks</h4>
+							<ul>
+								<li>
+									<a href="https://www.youtube.com/watch?v=SALxEARiMkw">How to do Lat Pulldown Correctly</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=jLvqKgW-_G8&t=215s">The Best And Worst Back Exercises (Ranked By Science)</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/watch?v=co6Y7ak9Exo">Biceps Exercise Tier List (Simplified)</a>
+								</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="index.html">
+				<input type="text" value="Enter email for Newsletter" id="newsletter">
+				<input type="submit" value="Go" id="gobtn">
+			</form>
+			<div>
+				<a href="https://www.facebook.com/ryoofajardo/" target="_blank" id="facebook">Facebook</a>
+				<a href="https://twitter.com/ryooiwase" target="_blank" id="twitter">Twitter</a>
+				<a href="https://www.instagram.com/ryofiwase/" target="_blank" id="instagram">Instagram</a>
+			</div>
+		</div>
+		<p>
+			<p>ID: 23314047 | Name: Iwase Ryo</p>
+		</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<script>
+    function calculateBMI() {
+        var weight = prompt("Enter your weight in kg:");
+        var height = prompt("Enter your height in meters:");
+        if (weight && height) {
+            var bmi = weight / (height * height);
+            document.getElementById("bmiResult").innerText = "Your BMI is " + bmi.toFixed(2);
+        }
+    }
+</script>
+<button onclick="calculateBMI()">Click to Calculate BMI</button>
+<p id="bmiResult"></p>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Weekender Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<h1><a href="index.html">My Workout Routine</a></h1>
+		</div>
+		<div>
+			<span></span>
+			<div>
+				<ul>
+					<li class="current">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">Push</a>
+					</li>
+					<li>
+						<a href="blog.html">Pull</a>
+					</li>
+					<li>
+						<a href="gallery.html">Legs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<h2>Welcome!</h2>
+				<div>
+					<img src="images/goku.jpg" alt="Image" class="figure">
+					<p>
+						<span>Hello Everyone!</span> I'm Ryo, a 2nd-year student from the Philippines. This website is about my workout routine. I love staying active and healthy through various workouts like weightlifting and running. It keeps me energized and focused. I put a BMI calculator at the top left of the page, as it is crucial for bodybuilding. The images below show what my workout routine looks like throughout the week:
+				</div>
+			</div>
+			<div>
+				<h2 style="font-family: 'Roboto', sans-serif; font-size: 8px; font-weight: 200; color: #fff;">My Workout Routine</h2>
+				<div>
+					<ul>
+						<li>
+							<img class = "betlog" src="images/dbp.jpg" alt="Image">
+							<div>
+								<h3><a href="index.html">Push Day</a></h3>
+								<p>
+									This is my favorite workout to do. Push day means training your chest, shoulders, and also your triceps.
+								</p>
+							</div>
+						</li>
+						<li>
+							<img class = "betlog" src="images/bbr.jpg" alt="Image">
+							<div>
+								<h3><a href="index.html">Pull Day</a></h3>
+								<p>
+									Pull day is for the back and bicep exercises.
+								</p>
+							</div>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="index.html"><img class="betlog" src="images/ld.png" alt="Image"></a>
+							<div>
+								<h3><a href="index.html">Leg Day</a></h3>
+								<p>
+									Leg day is my least favorite among the three because you won't be able to walk properly the day after.
+								</p>
+							</div> 
+						</li>
+						<li>
+							<a href="index.html"><img class="betlog" src="images/sleep.jpg" alt="Image"></a>
+							<div>
+								<h3><a href="index.html">Rest Day</a></h3>
+								<p>
+									Resting is also vital to give time for your muscle to grow and recover.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="index.html">
+				<input type="text" value="Enter email for Newsletter" id="newsletter">
+				<input type="submit" value="Go" id="gobtn">
+			</form>
+			<div>
+				<a href="https://www.facebook.com/ryoofajardo/" target="_blank" id="facebook">Facebook</a>
+				<a href="https://twitter.com/ryooiwase" target="_blank" id="twitter">Twitter</a>
+				<a href="https://www.instagram.com/ryofiwase/" target="_blank" id="instagram">Instagram/a>
+			</div>
+		</div>
+		<p>
+			<p>ID: 23314047 | Name: Iwase Ryo</p>
+		</p>
+	</div>
+</body>
+</html>

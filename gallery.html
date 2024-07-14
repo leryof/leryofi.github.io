@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<script>
+    function calculateBMI() {
+        var weight = prompt("Enter your weight in kg:");
+        var height = prompt("Enter your height in meters:");
+        if (weight && height) {
+            var bmi = weight / (height * height);
+            document.getElementById("bmiResult").innerText = "Your BMI is " + bmi.toFixed(2);
+        }
+    }
+</script>
+<button onclick="calculateBMI()">Click to Calculate BMI</button>
+<p id="bmiResult"></p>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Gallery - Weekender Website Template</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<h1><a href="index.html">Leg Day</a></h1>
+		</div>
+		<div>
+			<span></span>
+			<div>
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="about.html">Push</a>
+					</li>
+					<li>
+						<a href="blog.html">Pull</a>
+					</li>
+					<li class="current">
+						<a href="gallery.html">Legs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="body">
+		<div>
+			<div>
+				<div class="content">
+					<h2>Routine:</h2>
+					   <h3>For leg day, I start with stretching and just do 4 exercises below:</h3>
+					<div>
+						<ul id="gallery">
+							<li>
+								<img src="images/goku_kick.jpeg"
+								width="400"
+								height="300" />
+								<div>
+									<p>
+										Squat: 6x3 50kg
+										</p>
+										<p>
+										Deadlift: 3x7 70kg
+										</p>
+										<p>
+										Machine leg extention: 3x12 75kg
+										</p>
+										<p>
+										Leg press 3x13 195kg (3x12 90kg)
+										</p>
+										<p>
+					<div id="sidebar">
+							<h4>Tips and Tricks</h4>
+							<ul>
+							<li>
+							<a href="https://www.youtube.com/watch?v=JhzXZXCA1zY">How I Grew Thick Legs…FAST!</a>
+							</li>
+							<li>
+							<a href="https://www.youtube.com/watch?v=6Xla5eR3-WI">The ONLY 3 Exercises You NEED to Grow Bigger Legs (Even If You HATE Training Legs)</a>
+							</li>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<form action="index.html">
+				<input type="text" value="Enter email for Newsletter" id="newsletter">
+				<input type="submit" value="Go" id="gobtn">
+			</form>
+			<div>
+				<a href="https://www.facebook.com/ryoofajardo/" target="_blank" id="facebook">Facebook</a>
+				<a href="https://twitter.com/ryooiwase" target="_blank" id="twitter">Twitter</a>
+				<a href="https://www.instagram.com/ryofiwase/" target="_blank" id="instagram">Instagram</a>
+			</div>
+		</div>
+		<p>
+			ID: 23314047 | Name: Iwase Ryo
+		</p>
+	</div>
+<footer>
+</footer>
+</body>
+</html>
